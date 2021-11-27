@@ -1,0 +1,31 @@
+body {
+    background-image:url(bground2.jpg);
+    margin: 1em 2em;
+    font-family: cursive, serif;
+}
+
+h1,
+h2 {
+    color: navy;
+    text-align: center;
+}
+
+p {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+li {
+    margin: 1em 0;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
