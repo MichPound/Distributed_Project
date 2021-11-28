@@ -6,7 +6,7 @@
 ----------------------------------------------------------------------
 
 ### Commands:
-    gunicorn --bind 0.0.0.0:5000 face_detection:app --timeout 300 --workers=2
+	gunicorn --bind 0.0.0.0:5000 face_detection:app --timeout 300 --workers=2
 	gunicorn --bind 0.0.0.0:5000 object_detection:app --timeout 300 --workers=2
 	gunicorn --bind 0.0.0.0:5000 hand_detection:app --timeout 300 --workers=2
 
@@ -27,3 +27,6 @@
 
 ### NOTE!!
 For this to work yolov3.weights will also need to be downloaded, this was to large to upload to GitHub.
+
+This command should work for the needed files:
+	wget https://pjreddie.com/media/files/yolov3.weights
